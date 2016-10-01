@@ -1,0 +1,213 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Css/cssDemo3.css">
+	<script src = "jquery-3.1.1.min.js"></script>
+	<script src = "bootstrap/js/bootstrap.min.js">
+	</script>
+</head>
+<body>
+	<div class = "header">
+		<div class = "row">
+			<div class = "col-md-2">
+				<img src="Image/hcmute.png"/>
+			</div>
+			<div class = "col-md-2">
+				<img src="Image/user.jpg"/>
+			</div>
+			<div class = "col-md-6">
+				<H1>WELCOME TO MY WEBSITE</H1>
+				<H3>TRƯỜNG ĐH SPKT TPHCM</H3>
+				<h4><i>GIẢNG VIÊN NGUYỄN VĂN ABC</i></h4>
+			</div>
+			<div class = "col-md-2">
+				<input type="button" value="Đăng Nhập" class ="btn btn-primary" data-toggle="modal" data-target="#loginModal" >
+				<div class="modal fade" data-keyboard="false" data-backdrop="static" id="loginModal" tabindex="-1">
+			    <div class="modal-dialog">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <button class="close" data-dismiss="modal">&times;</button>
+			                <p id="stw">Đăng Nhập Hệ Thống</p>
+			                <div class="form-group" id="stw2">
+			                    <input checked="checked" name="chucvu" type="radio" value="Giảng viên">Giảng viên
+			                    <input name="chucvu" type="radio" value="Sinh viên">Sinh Viên
+			                </div>
+			            </div>
+			            <div class="modal-body">
+			                <form>
+			                    <div class="login_input ">
+			                        <span class="input_icn"><em class="user"></em></span>
+			                        <label for=name>UserName</label>
+			                        <input name="u" id="u" value="" placeholder="Tên đăng nhập" type="text" maxlength="24" tabindex="1">
+			                        </p>
+			                    </div>
+			                    <div class="login_input ">
+			                        <span class="input_icn"><em class="pass"></em></span>
+			                        <label for=name>PassWord</label>
+			                        <input name="p" id="pp" value="" type="password" placeholder="Mật khẩu" maxlength="32" tabindex="2">
+			                    </div>
+			                    <div class="login_input2">
+			                        <p class="remember_login">
+			                            <input type="checkbox" name="longtime" id="remember" value="1" tabindex="3" />
+			                            <label for="remember"><span class="checkbox"></span>Ghi nhớ đăng nhập</label>
+			                        </p>
+			                    </div>
+			                </form>
+			            </div>
+			            <div class="modal-footer">
+			                <button class="btn btn-primary">Login</button>
+			                <button class="btn btn-primary" data-dismiss="modal">Close</button>
+			            </div>
+			        </div>
+			    </div>
+			</div>		
+		</div>
+		</div>
+	</div>
+	<div class="menu">
+    	<div class = "row">
+	        <div class="col-md-9">
+	            <ul>
+	                <li><a href="#">Trang chủ</a>
+	                </li>
+	                <li>
+	                    <a href="HoSo.html">Hồ sơ</a>
+	                </li>
+	                <li><a href="NghienCuu.html">Nguyên cứu</a>
+	                </li>
+	                <li><a href="AnPham.html">Ấn Phẩm</a>
+	                </li>
+	                <li>
+	                    <a href="KhoaHoc.html">Khóa học</a>
+	                </li>
+	                <li><a href="TraoDoi.html">Trao đổi/Tương tác</a>
+	                </li>
+	            </ul>
+	        </div>
+	        <div class = "col-md-3">
+	        	<form class="navbar-form" role="search" style="margin: 0">
+			        <div class="input-group">
+			            <input type="text" class="form-control" placeholder="Search" name="q">
+			            <div class="input-group-btn">
+			                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+			            </div>
+			        </div>
+     		   	</form>
+	        </div>
+	    </div>
+    </div>
+
+ 	<div class="content">
+ 		<div class="row">
+ 			<div class="col-md-4 col-md-offset-0 " style="margin:10px;">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				  <div class="panel panel-default">
+				    <div class="panel-heading" role="tab" id="headingOne">
+				      <h4 class="panel-title">
+				        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				          Học kỳ 1 (2015-2016)
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+				      <div class="panel-body">
+				        	<ul class="ulChildrent tabHTML_Content">
+			                    <li>
+			                        <a href="DemoCNPM.html" >Công nghệ phần mềm</a>
+			                    </li>
+			                    <li>
+			                       <a href="#" target="_blank">Lập trình web</a>
+			                    </li>
+			                    <li>
+			                       <a href="#" target="_blank">Lập trình di động</a>
+			                    </li>			              
+			            	 </ul>
+				      </div>
+				    </div>
+				</div>
+				  <div class="panel panel-default">
+				    <div class="panel-heading" role="tab" id="headingTwo">
+				      <h4 class="panel-title">
+				        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				          Học kỳ 2 (2015-2016)
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+				      <div class="panel-body">
+				        	<ul class="ulChildrent tabHTML_Content">
+			                    <li>
+			                        <a href="#" target="_blank">Lập trình di động</a>
+			                    </li>
+			                    <li>
+			                       <a href="#" target="_blank">Lập trình web</a>
+			                    </li>
+			                    <li>
+			                       <a href="#" target="_blank">Hướng đồi tượng</a>
+			                    </li>			              
+			            	 </ul>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="panel panel-default">
+				    <div class="panel-heading" role="tab" id="headingThree">
+				      <h4 class="panel-title">
+				        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				          Học kỳ 1 (2014-2015)
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				      <div class="panel-body">
+				        	<ul class="ulChildrent tabHTML_Content">
+			                    <li>
+			                        <a href="#" target="_blank">Công nghệ phần mềm</a>
+			                    </li>
+			                    <li>
+			                       <a href="#" target="_blank">Mạng căn bản</a>
+			                    </li>
+			                    <li>
+			                       <a href="#" target="_blank">Lập trình Window</a>
+			                    </li>			              
+			            	 </ul>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+ 			</div>
+
+ 			<div class="col-md-8 col-md-offset-0 " style="width:750px">
+			  <h2 id="thongbao"><I>Thông báo mới</I></h2>
+			  <table class="table table-bordered">
+			    <thead>
+			      <tr>
+			        <th>Thời gian</th>
+			        <th>Thông báo</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			        <td>3:00pm 28/09/2016</td>
+			        <td>Lập trình web sáng thứ 2 ngày 03/10/2016 nghỉ<br>Cô lên lịch học bù lại sau</td>
+			      </tr>
+			      <tr>
+			        <td>7:00am 29/09/2016</td>
+			        <td>Nhắc nhở Nộp bài task tuần 4</td>
+			      </tr>
+			      <tr>
+			        <td>6:pm 29/09/2016</td>
+			        <td>Chuẩn bị thuyết trình đề tài nhóm vào thứ 2 ngày  10/10/2016</td>
+			      </tr>
+			    </tbody>
+			  </table>
+ 		</div>
+ 		</div>
+ 	</div>
+ 	<div class = "footer">
+		<p>&copy; 2016 Nguyễn Bá Đạt - Trường Đại học Sư Phạm Kỹ thuật Thành phố Hồ Chí Minh<p>
+	</div>
+</body>
+</html

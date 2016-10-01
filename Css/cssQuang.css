@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+ 
+#main{
+    width: 400px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 100px;
+    background-color: #F5F5F5;
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+}
+#head-link{
+     height: 30px;
+     line-height: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border: 1px solid #CDCDCD;
+     background-color: #F5F5F5;
+     margin-bottom:5px;
+     clear: both;
+}
+#left{
+     width: 0px;
+     min-height: 0px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     background-color: #004C00;
+     margin-bottom: 5px;
+}
+
+#content{
+     width: 800px;
+     min-height:500px;
+     
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-left: 300px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+
+}
+#content1{
+
+     width: 400px;
+     min-height: 500px;
+     border: 1px solid #CDCDCD;
+     float:right;
+     margin-right: 200px;
+     margin-top: 50px 
+     margin-bottom: 50px;
+}
+#right{
+     width: 400px;
+     min-height: 500px;
+     color: blue;
+     background-color: red;
+     border: 1px solid #CDCDCD;
+     float:right;
+     margin-bottom: -10px;
+}
+#footer{
+     height: 50px;
+     clear: both;
+     border: 1px solid #CDCDCD;
+     background-color: #F8F8FF;
+}
+.navbar-nav a {
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    padding:8px 20px;
+    color: #F2F2F2;
+}
+.container0{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+  #stw{
+	text-align: center;
+	font-family: time roman;
+	color: black;
+	font-weight: bold;
+	font-size:30px;
+	margin-right: 00px;
+}
+#stw2{
+	text-align: center;
+	font-family: time roman;
+	color: black;
+	font-weight: bold;
+	font-size:20px;
+	margin-right: 00px;
+}
+.login_input{
+	text-align: center;
+	font-family: time roman;
+	color: black;
+	font-weight: bold;
+	font-size:20px;
+	margin-right: 50px;
+}
+	.login_input2{
+	text-align: center;
+	font-family: time roman;
+	color: black;
+	font-weight: bold;
+	font-size:20px;
+	margin-right: 100px;
+	}

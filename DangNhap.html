@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<title>WEB SITE CÁ NHÂN CỦA GIẢNG VIÊN</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Css/DangNhap.css">
+	<script src = "jquery-3.1.1.min.js"></script>
+	<script src = "bootstrap/js/bootstrap.min.js">
+	</script>
+
+</head>
+<body>
+ 	 <button type="button"  data-toggle="modal" data-target="#loginModal"><li><a href="#"><span class="glyphicon glyphicon-user"></span> Login</a></li></button>
+					<div class="modal fade" data-keyboard="false" data-backdrop="static" id="loginModal" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;</button>
+									<p id="stw">Đăng Nhập Hệ Thống</p>
+									<div class="form-group" id="stw2">
+										<input checked="checked" name="chucvu" type="radio" value="Giảng viên">Giảng viên
+										<input name="chucvu" type="radio" value="Sinh viên">Sinh Viên
+									</div>
+							</div>
+						<div class="modal-body">
+							<form>
+								<div class="login_input ">
+                					<span class="input_icn"><em class="user"></em></span>
+					                <label for=name>UserName</label>
+					                <input name="u" id="u" value="" placeholder="Tên đăng nhập" type="text" maxlength="24" tabindex="1"></p>
+					            </div>
+					            <div class="login_input ">
+					                <span class="input_icn"><em class="pass"></em></span>
+					                <label for=name>PassWord</label>
+					                <input name="p" id="pp" value="" type="password" placeholder="Mật khẩu" maxlength="32" tabindex="2">
+					            </div>
+					            <div class="login_input2">
+					                <p class="remember_login">
+					                <input type="checkbox" name="longtime" id="remember" value="1" tabindex="3"/>
+					                <label for="remember"><span class="checkbox"></span>Ghi nhớ đăng nhập</label>
+					                </p>
+					            </div>	
+							</form>
+						</div>
+							<div class="modal-footer">
+								<button class="btn btn-primary">Login</button>
+								<button class="btn btn-primary" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>    
+ 			</div>
+ 			<form name="search" id="searchbox" class="znewsSearch">
+ 			</style>
+ 			
+			<input type="text" value="Nhập nội dung cần tìm" onblur="if(this.value=='') this.value='Nhập nội dung cần tìm'" onfocus="if(this.value=='Nhập nội dung cần tìm') this.value=''" id="search_keyword" placeholder="Nhập nội dung cần tìm...">
+<button type="submit" id="search_button">
+<span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+</form>
+ 	</body>
+</html>
+
+
+
+
+
+	

@@ -1,0 +1,37 @@
+.login_input{
+	text-align: center;
+	font-family: Times New Roman;
+	color: black;
+	font-weight: bold;
+	font-size:20px;
+	margin-right: 50px;
+}
+	.login_input2{
+	text-align: center;
+	font-family: time roman;
+	color: black;
+	font-weight: bold;
+	font-size:20px;
+	margin-right: 100px;
+	}
+ #stw{
+	text-align: center;
+	font-family: time roman;
+	color: black;
+	font-weight: bold;
+	font-size:30px;
+	margin-right: 00px;
+}
+#stw2{
+	text-align: center;
+	font-family: time roman;
+	color: black;
+	font-weight: bold;
+	font-size:20px;
+	margin-right: 00px;
+}
+#searchbox{
+	width: 380px;
+	padding-left: 0;
+}
+

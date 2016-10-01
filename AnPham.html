@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<title>WEB SITE CÁ NHÂN CỦA GIẢNG VIÊN</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Css/style2.css">
+	<script src = "jquery-3.1.1.min.js"></script>
+	<script src = "bootstrap/js/bootstrap.min.js">
+	</script>
+</head>
+<body>
+	<div class = "header">
+		<div class = "row">
+			<div class = "col-md-2">
+				<img src="Image/hcmute.png"/>
+			</div>
+			<div class = "col-md-2">
+				<img src="Image/user.jpg"/>
+			</div>
+			<div class = "col-md-6">
+				<H1>WELCOME TO MY WEBSITE</H1>
+				<H3>TRƯỜNG ĐH SPKT TPHCM</H3>
+				<h4><i>GIẢNG VIÊN NGUYỄN VĂN ABC</i></h4>
+			</div>
+			<div class = "col-md-2">
+				<input type="button" value="Đăng Nhập" class ="btn btn-primary" data-toggle="modal" data-target="#loginModal" >
+				<div class="modal fade" data-keyboard="false" data-backdrop="static" id="loginModal" tabindex="-1">
+			    <div class="modal-dialog">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <button class="close" data-dismiss="modal">&times;</button>
+			                <p id="stw">Đăng Nhập Hệ Thống</p>
+			                <div class="form-group" id="stw2">
+			                    <input checked="checked" name="chucvu" type="radio" value="Giảng viên">Giảng viên
+			                    <input name="chucvu" type="radio" value="Sinh viên">Sinh Viên
+			                </div>
+			            </div>
+			            <div class="modal-body">
+			                <form>
+			                    <div class="login_input ">
+			                        <span class="input_icn"><em class="user"></em></span>
+			                        <label for=name>UserName</label>
+			                        <input name="u" id="u" value="" placeholder="Tên đăng nhập" type="text" maxlength="24" tabindex="1">
+			                        </p>
+			                    </div>
+			                    <div class="login_input ">
+			                        <span class="input_icn"><em class="pass"></em></span>
+			                        <label for=name>PassWord</label>
+			                        <input name="p" id="pp" value="" type="password" placeholder="Mật khẩu" maxlength="32" tabindex="2">
+			                    </div>
+			                    <div class="login_input2">
+			                        <p class="remember_login">
+			                            <input type="checkbox" name="longtime" id="remember" value="1" tabindex="3" />
+			                            <label for="remember"><span class="checkbox"></span>Ghi nhớ đăng nhập</label>
+			                        </p>
+			                    </div>
+			                </form>
+			            </div>
+			            <div class="modal-footer">
+			                <button class="btn btn-primary">Login</button>
+			                <button class="btn btn-primary" data-dismiss="modal">Close</button>
+			            </div>
+			        </div>
+			    </div>
+			</div>		
+		</div>
+		</div>
+	</div>
+	<div class="menu">
+    	<div class = "row">
+	        <div class="col-md-9">
+	            <ul>
+	                <li><a href="#">Trang chủ</a>
+	                </li>
+	                <li>
+	                    <a href="HoSo.html">Hồ sơ</a>
+	                </li>
+	                <li><a href="NghienCuu.html">Nguyên cứu</a>
+	                </li>
+	                <li><a href="AnPham.html">Ấn Phẩm</a>
+	                </li>
+	                <li>
+	                    <a href="KhoaHoc.html">Khóa học</a>
+	                </li>
+	                <li><a href="TraoDoi.html">Trao đổi/Tương tác</a>
+	                </li>
+	            </ul>
+	        </div>
+	        <div class = "col-md-3">
+	        	<form class="navbar-form" role="search" style="margin: 0">
+			        <div class="input-group">
+			            <input type="text" class="form-control" placeholder="Search" name="q">
+			            <div class="input-group-btn">
+			                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+			            </div>
+			        </div>
+     		   	</form>
+	        </div>
+	    </div>
+    </div>
+	<div class="content">
+		<H1>Publications</H1>
+	    <ul>
+	    	<li>Vu Duc Lung, Vu N. Truong, Vietnamese Speech Recognition Using Dynamic Time Warping and Coefficient of Correlation, International Conference on Control, Automation and Information Sciences (ICCAIS 2013), 25-28 Nov. 2013, Nha Trang city, Vietnam, ISBN: 978-1-4799-0569-0
+			Huy Phan, Quan Do, The-Luan Do, and Lung Vu, Metric Learning for Automatic Sleep Stage Classification, 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC’13), Osaka, Japan, 4-7 July 2013, pp. 5025-5028</li>
+	    	<li>Phan Dinh Duy, Vu Duc Lung, Nguyen Quang Duy Trang, Nguyen Cong Toan. Speech Recognition on Robot Controller Implemented on FPGA. Journal of Automation and Control Engineering, Vol. 1, No. 3, 2013.</li>
+	    	<li>Vu Duc Lung, Phan Dinh Duy, Nguyen Vo an Phu, Nguyen Hoang Long, Truong Nguyen Vu. Speech recognition in Human-Computer interactive control. Journal of Automation and Control Engineering, Vol. 1, No. 3, 2013</li>
+	    	<li>Quoc-Huy Phan, Su-Lim Tan, Ian McLoughlin, and Duc-Lung Vu, A Unified Framework for GPS Code and Carrier-Phase Multipath Mitigation using Support Vector Regression, Advances in Artificial Neural Systems, vol. 2013, 2013. doi: 10.1155/2013/240564. ISNN: 1557-170X</li>
+	    	<li>Lung Vu Duc, Hung Cao Van, Loc Nguyen Phuoc,  Quoc Nguyen Viet. Analysis of Vietnamese Tones to optimize database in speech synthesis using unit selection method,  IEEE International Symposium on Signal Processing and Information Technology, 12-15/12, 2012 - Ho Chi Minh City- Vietnam. ISBN: 978-1-4673-5604-6</li>
+	    </ul>
+	</div>
+	<div class = "footer">
+		<p>&copy; 2016 Nguyễn Bá Đạt - Trường Đại học Sư Phạm Kỹ thuật Thành phố Hồ Chí Minh<p>
+	</div>
+</body>
+</html>

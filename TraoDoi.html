@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<title>WEB SITE CÁ NHÂN CỦA GIẢNG VIÊN</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Css/style2.css">
+	<script src = "jquery-3.1.1.min.js"></script>
+	<script src = "bootstrap/js/bootstrap.min.js">
+	</script>
+</head>
+<body>
+	<div class = "header">
+		<div class = "row">
+			<div class = "col-md-2">
+				<img src="Image/hcmute.png"/>
+			</div>
+			<div class = "col-md-2">
+				<img src="Image/user.jpg"/>
+			</div>
+			<div class = "col-md-6">
+				<H1>WELCOME TO MY WEBSITE</H1>
+				<H3>TRƯỜNG ĐH SPKT TPHCM</H3>
+				<h4><i>GIẢNG VIÊN NGUYỄN VĂN ABC</i></h4>
+			</div>
+			<div class = "col-md-2">
+				<input type="button" value="Đăng Nhập" class ="btn btn-primary" data-toggle="modal" data-target="#loginModal" >
+				<div class="modal fade" data-keyboard="false" data-backdrop="static" id="loginModal" tabindex="-1">
+			    <div class="modal-dialog">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <button class="close" data-dismiss="modal">&times;</button>
+			                <p id="stw">Đăng Nhập Hệ Thống</p>
+			                <div class="form-group" id="stw2">
+			                    <input checked="checked" name="chucvu" type="radio" value="Giảng viên">Giảng viên
+			                    <input name="chucvu" type="radio" value="Sinh viên">Sinh Viên
+			                </div>
+			            </div>
+			            <div class="modal-body">
+			                <form>
+			                    <div class="login_input ">
+			                        <span class="input_icn"><em class="user"></em></span>
+			                        <label for=name>UserName</label>
+			                        <input name="u" id="u" value="" placeholder="Tên đăng nhập" type="text" maxlength="24" tabindex="1">
+			                        </p>
+			                    </div>
+			                    <div class="login_input ">
+			                        <span class="input_icn"><em class="pass"></em></span>
+			                        <label for=name>PassWord</label>
+			                        <input name="p" id="pp" value="" type="password" placeholder="Mật khẩu" maxlength="32" tabindex="2">
+			                    </div>
+			                    <div class="login_input2">
+			                        <p class="remember_login">
+			                            <input type="checkbox" name="longtime" id="remember" value="1" tabindex="3" />
+			                            <label for="remember"><span class="checkbox"></span>Ghi nhớ đăng nhập</label>
+			                        </p>
+			                    </div>
+			                </form>
+			            </div>
+			            <div class="modal-footer">
+			                <button class="btn btn-primary">Login</button>
+			                <button class="btn btn-primary" data-dismiss="modal">Close</button>
+			            </div>
+			        </div>
+			    </div>
+			</div>		
+		</div>
+		</div>
+	</div>
+	<div class="menu">
+    	<div class = "row">
+	        <div class="col-md-9">
+	            <ul>
+	                <li><a href="#">Trang chủ</a>
+	                </li>
+	                <li>
+	                    <a href="HoSo.html">Hồ sơ</a>
+	                </li>
+	                <li><a href="NghienCuu.html">Nguyên cứu</a>
+	                </li>
+	                <li><a href="AnPham.html">Ấn Phẩm</a>
+	                </li>
+	                <li>
+	                    <a href="KhoaHoc.html">Khóa học</a>
+	                </li>
+	                <li><a href="TraoDoi.html">Trao đổi/Tương tác</a>
+	                </li>
+	            </ul>
+	        </div>
+	        <div class = "col-md-3">
+	        	<form class="navbar-form" role="search" style="margin: 0">
+			        <div class="input-group">
+			            <input type="text" class="form-control" placeholder="Search" name="q">
+			            <div class="input-group-btn">
+			                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+			            </div>
+			        </div>
+     		   	</form>
+	        </div>
+	    </div>
+    </div>
+	
+	<div class="content">
+	    <ul class="nav nav-tabs">
+		    <li class="active"><a data-toggle="tab" href="#home">Bình luận</a>
+		    </li>
+		    <li><a data-toggle="tab" href="#menu1">Thêm Bình luận</a>
+		    </li>
+		</ul>
+
+		<div class="tab-content">
+		    <div id="home" class="tab-pane fade in active">
+		        <h3>Bình luận</h3>
+		        <p>Some content.</p>
+		    </div>
+		    <div id="menu1" class="tab-pane fade">
+		        <h3>Thêm Bình luận</h3>
+		        <form action="#" method="post" class="form-horizontal" id="commentForm" role="form">
+				    <div class="form-group">
+				        <label for="name" class="col-sm-2 control-label">Tên:</label>
+				        <div class="col-sm-10">
+				            <input type="text" class="form-control" name="name" id="name">
+				        </div>
+				    </div>
+				    <div class="form-group">
+				        <label for="email" class="col-sm-2 control-label">Email:</label>
+				        <div class="col-sm-10">
+				            <input type="email" class="form-control" name="email" id="email" required="">
+				        </div>
+				    </div>
+				    <div class="form-group">
+				        <label for="password" class="col-sm-2 control-label">Bình luận:</label>
+				        <div class="col-sm-10" id="commentbox">
+				            <textarea class="form-control" name="addComment" id="addComment" rows="5"></textarea>
+				        </div>
+				    </div>
+
+				    <div class="form-group">
+				        <div class="col-sm-offset-2 col-sm-10">
+				            <button class="btn btn-primary btn-circle text-uppercase" type="submit" id="submit">Gửi bình luận</button>
+				        </div>
+				    </div>
+				</form>
+		    </div>
+		</div>
+	</div>
+
+	<div class = "footer">
+		<p>&copy; 2016 Nguyễn Bá Đạt - Trường Đại học Sư Phạm Kỹ thuật Thành phố Hồ Chí Minh<p>
+	</div>
+</body>
+</html>
